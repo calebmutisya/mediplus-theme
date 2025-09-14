@@ -13,6 +13,13 @@ get_header(); ?>
             endwhile;
         endif;
         ?>
+
+        <div class="bg-blue-500 text-white p-4 rounded-lg mb-4">
+            <h1 class="text-2xl font-bold">Welcome to MediPlus</h1>
+            <p class="mt-2">Tailwind CSS is working!</p>
+            <button class="btn-primary mt-3 cursor-pointer">Get Started</button>
+        </div>
+
         <!-- Example static custom sections -->
         <section id="about">
             <h2>About Us</h2>

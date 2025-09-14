@@ -20,3 +20,23 @@ function mediplus_setup() {
     ));
 }
 add_action('after_setup_theme', 'mediplus_setup');
+
+function mediplus_enqueue_styles() {
+    // Enqueue Tailwind CSS
+    wp_enqueue_style(
+        'tailwind-css',
+        get_template_directory_uri() . '/dist/output.css',
+        array(),
+        '1.0.0'
+    );
+    
+    // Optional: Keep your existing theme styles
+    wp_enqueue_style(
+        'mediplus-style',
+        get_stylesheet_uri(),
+        array('tailwind-css'),
+        '1.0.0'
+    );
+}
+add_action('wp_enqueue_scripts', 'mediplus_enqueue_styles');
+?>

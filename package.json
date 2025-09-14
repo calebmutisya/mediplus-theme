@@ -1,0 +1,25 @@
+{
+  "name": "mediplus-theme",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx @tailwindcss/cli -i ./src/styles.css -o ./dist/output.css --watch",
+    "build": "npx @tailwindcss/cli -i ./src/styles.css -o ./dist/output.css --minify",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/calebmutisya/mediplus-theme.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/calebmutisya/mediplus-theme/issues"
+  },
+  "homepage": "https://github.com/calebmutisya/mediplus-theme#readme",
+  "description": "",
+  "devDependencies": {
+    "tailwindcss": "^4.1.13"
+  }
+}
