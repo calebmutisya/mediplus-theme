@@ -40,9 +40,20 @@ get_header(); ?>
         <!-- Hero End -->
 
         <!-- Example static custom sections -->
-        <section id="about" class="container">
-            <h2>About Us</h2>
-            <p>Some info about your company...</p>
+        <section id="about" class="container flex flex-col md:flex-row md:items-center">
+            <div class="md:min-h-[480px] lg:min-h-[540px] md:relative w-[100%] md:w-1/2 xl:w-1/2 md:flex md:items-end lg:overflow-clip xl:min-h-[640px] order-2 md:order-1">
+                <img 
+                src="<?php echo esc_url( wp_get_attachment_url(18) ); ?>" 
+                alt="Mediplus Doctors"
+                class="md:absolute md:bottom-0 md:left-[-10px] lg:left-0 w-fit h-fit"
+                />
+            </div>
+            <div class="text-center md:text-start w-[100%] md:w-1/2 order-1 md:order-2 pt-[70px] pb-[35px] md:pt-0 md:pb-0">
+                <span class="text-[14px] font-[900] text-[#00a3c8]">WELCOME TO MEDPLUS</span>
+                <h3 class="text-[30px] lg:text-[34px] xl:text-[42px] font-[900] mb-[20px] md:mb-[30px] text-[#004861]">Complete Medical Solutions in One Place</h3>
+                <p class="mb-[14px] lg:mb-[16px] text-[16px] font-[300]">Porta semper lacus cursus, feugiat primis ultrice in ligula risus auctor tempus feugiat dolor lacinia cubilia curae integer congue leo metus, eu mollislorem primis in orci integer metus mollis faucibus. An enim nullam tempor sapien gravida donec pretium and ipsum porta justo integer at velna vitae auctor integer congue</p>
+                <p class="text-[16px] font-[300]">Randon Pexon, Head of Clinic</p>
+            </div>
         </section>
 
         <section id="services" class="container">
