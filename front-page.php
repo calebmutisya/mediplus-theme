@@ -63,28 +63,28 @@ get_header(); ?>
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 justify-items-center">
                     <div class=" max-w-[260px] py-[40px] px-[20px] mb-[40px] rounded-[6px] border-none shadow-[0px_0px_10px_0px_rgba(0,0,0,0.1)]">
                         <div class="flex justify-center py-[15px]">
-                            <image class="w-[64px] h-[64px] rounded-full" src="" alt=""/>
+                            <image class="w-[64px] h-[64px]" src="<?php echo esc_url( wp_get_attachment_url(21) ); ?>" alt="mri scanner"/>
                         </div>
                         <h5 class="mt-[25px] mb-[15px] font-[900] text-[#004861]">MRI</h5>
                         <p class="text-[14px] font-[300]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam ut cum aperiam, doloribus praesentium a exercitationem sint quaerat delectus</p>
                     </div>
                     <div class=" max-w-[260px] py-[40px] px-[20px] mb-[40px] rounded-[6px] border-none shadow-[0px_0px_10px_0px_rgba(0,0,0,0.1)]">
                         <div class="flex justify-center py-[15px]">
-                            <image class="w-[64px] h-[64px] rounded-full" src="" alt=""/>
+                            <image class="w-[64px] h-[64px] " src="<?php echo esc_url( wp_get_attachment_url(20) ); ?>" alt="laboratory"/>
                         </div>
                         <h5 class="mt-[25px] mb-[15px] font-[900] text-[#004861]">LABORATORY</h5>
                         <p class="text-[14px] font-[300]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam ut cum aperiam, doloribus praesentium a exercitationem sint quaerat delectus</p>
                     </div>
                     <div class=" max-w-[260px] py-[40px] px-[20px] mb-[40px] rounded-[6px] border-none shadow-[0px_0px_10px_0px_rgba(0,0,0,0.1)]">
                         <div class="flex justify-center  py-[15px]">
-                            <image class="w-[64px] h-[64px] rounded-full" src="" alt=""/>
+                            <image class="w-[64px] h-[64px] " src="<?php echo esc_url( wp_get_attachment_url(19) ); ?>" alt="emergency help"/>
                         </div>
                         <h5 class="mt-[25px] mb-[15px] font-[900] text-[#004861]">EMERGENCY HELP</h5>
                         <p class="text-[14px] font-[300]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam ut cum aperiam, doloribus praesentium a exercitationem sint quaerat delectus</p>
                     </div>
                     <div class=" max-w-[260px] py-[40px] px-[20px] mb-[40px] rounded-[6px] border-none shadow-[0px_0px_10px_0px_rgba(0,0,0,0.1)]">
                         <div class="flex justify-center  py-[15px]">
-                            <image class="w-[64px] h-[64px] rounded-full" src="" alt=""/>
+                            <image class="w-[64px] h-[64px] " src="<?php echo esc_url( wp_get_attachment_url(22) ); ?>" alt="pediatrics"/>
                         </div>
                         <h5 class="mt-[25px] mb-[15px] font-[900] text-[#004861]">PEDIATRICS</h5>
                         <p class="text-[14px] font-[300]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam ut cum aperiam, doloribus praesentium a exercitationem sint quaerat delectus</p>
